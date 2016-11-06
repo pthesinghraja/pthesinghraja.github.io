@@ -43,27 +43,48 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </div>
 
+    <br><br><br><br>
+    <section id="contact"></section>
+    <div class="container">
+        <div class="row  mt mb">
+            <div class="col-lg-6 col-lg-offset-2">
+            Drop a message if you would like to get in touch:
+            <br><br>
 
-	<div id="headerwrap">
-	    <div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
-					<h1>PREETHI THESINGRAJA</h1>
-					<h4>DATA ANALYST. ASPIRING ENTREPRENEUR. EXPLORER.</h4>
-				</div>
-			</div><! --/row -->
-	    </div> <!-- /container -->
-	</div><! --/headerwrap -->
-	
+            <form action="https://formspree.io/preethi.thesinghraja@gmail.com"
+                  method="POST"
+                  float="center">
+                <input type="hidden" name="_subject" value="New website submission" />
+                <input type="hidden" name="_next"
+                value="http://pthesinghraja.github.io" />
+                <input type="text" name="_format" value="plain" style="display:none" />
+
+                Your Name:<br>
+                <input size=80 type="text" name="name"><br><br>
+
+                Your LinkedIn profile (If you'd like to connect):<br>
+                <input size=80 type="text" name="linkedin"><br><br>
+
+                Your Email ID: <br>
+                <input size=80 type="email" name="email"><br><br>
+
+                Your Message:<br>
+                <textarea rows=10 cols=80 name="reason"></textarea><br><br><br>
+                <input type="submit" value="Send">
+            </form>
+            </div>
+        </div><!--/row-->
+    </div><!--/container-->
+
 	<div id="social">
 		<div class="container">
 			<div class="row centered">
